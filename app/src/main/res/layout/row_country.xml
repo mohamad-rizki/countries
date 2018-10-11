@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryColor"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/iv_flag"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@color/primaryLightColor"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/iv_flag"
+        tools:text="@tools:sample/full_names" />
+
+    <TextView
+        android:id="@+id/tv_region"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_alignStart="@+id/tv_name"
+        tools:text="@tools:sample/cities" />
+
+</RelativeLayout>
