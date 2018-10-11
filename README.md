@@ -1,7 +1,7 @@
 Countries App
 ==============
 
-https://travis-ci.com/mohamad-rizki/countries.svg?branch=master
+[![pipeline status](https://travis-ci.com/mohamad-rizki/countries.svg?branch=master)](https://travis-ci.com/mohamad-rizki/countries.svg?branch=master)
 
 Android Application for example of unit test & code coverage with minimal config. Build with Java Language
 
