@@ -19,7 +19,7 @@ What things you need to install the software and install them :
 If you using Mac OS, you could install this with [Homebrew](homebrew.sh)
 
 ```sh
-$ brew cas install java8
+$ brew cask install java8
 $ brew install gradle
 ```
 
