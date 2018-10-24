@@ -1,7 +1,8 @@
 Countries App
 ==============
 
-[![pipeline status](https://travis-ci.com/mohamad-rizki/countries.svg?branch=master)](https://travis-ci.com/mohamad-rizki/countries.svg?branch=master)
+[![pipeline status](https://gitlab.com/mohamad.rizki/countries/badges/master/pipeline.svg)](https://gitlab.com/mohamad.rizki/countries/commits/master)
+[![coverage report](https://gitlab.com/mohamad.rizki/countries/badges/master/coverage.svg)](https://gitlab.com/mohamad.rizki/countries/commits/master)
 
 Android Application for example of unit test & code coverage with minimal config. Build with Java Language
 
